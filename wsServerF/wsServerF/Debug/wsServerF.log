@@ -1,0 +1,29 @@
+﻿Build started 2/21/2014 6:34:22 PM.
+     1>Project "C:\dev\chat\wsServerF\wsServerF\wsServerF.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\dev\chat\wsServerF\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\wsServerF.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt application.cpp client.cpp main.cpp server.cpp
+         server.cpp
+         main.cpp
+         client.cpp
+         application.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\chat\wsServerF\Debug\wsServerF.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\wsServerF.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\dev\chat\wsServerF\Debug\wsServerF.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\chat\wsServerF\Debug\wsServerF.lib" /MACHINE:X86 Debug\application.obj
+         Debug\client.obj
+         Debug\main.obj
+         Debug\server.obj
+         wsServerF.vcxproj -> C:\dev\chat\wsServerF\Debug\wsServerF.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\dev\chat\wsServerF\Debug\wsServerF.exe;#1" /manifest Debug\wsServerF.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\wsServerF.unsuccessfulbuild".
+         Touching "Debug\wsServerF.lastbuildstate".
+     1>Done Building Project "C:\dev\chat\wsServerF\wsServerF\wsServerF.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.09
